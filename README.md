@@ -9,7 +9,7 @@ setelah itu eksekusi perintah `chown -R admin. /home/admin/all_backups/`
 3. Setting panjang username
 https://www.directadmin.com/features.php?id=189
 4. instalasi custom build diaktifkan dulu
-`./build set ioncube yes` 
+`./build set ioncube yes` kemudian 
 `./build ioncube`
 ## security
 1. https://help.directadmin.com/item.php?id=247
