@@ -11,6 +11,9 @@ https://www.directadmin.com/features.php?id=189
 4. instalasi custom build diaktifkan dulu
 `./build set ioncube yes` kemudian 
 `./build ioncube`
+## backup
+1. manual backup menggunakan rclone dengna google drive
+`rclone copy src suramadu:/suramadu --fast-list --drive-stop-on-upload-limit --drive-chunk-size 128M --progress`
 ## security
 1. https://help.directadmin.com/item.php?id=247
 
