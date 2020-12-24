@@ -11,6 +11,8 @@ https://www.directadmin.com/features.php?id=189
 4. instalasi custom build diaktifkan dulu
 `./build set ioncube yes` kemudian 
 `./build ioncube`
+5. Cloudlinux versi php berbeda berdasarkan subdomain
+https://cloudlinux.zendesk.com/hc/en-us/articles/115004537805-Different-PHP-versions-per-directories-using-mod-lsapi
 ## backup
 1. manual backup menggunakan rclone dengna google drive
 `rclone copy src suramadu:/suramadu --fast-list --drive-stop-on-upload-limit --drive-chunk-size 128M --progress`
