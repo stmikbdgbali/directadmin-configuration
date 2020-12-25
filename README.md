@@ -16,6 +16,9 @@ https://cloudlinux.zendesk.com/hc/en-us/articles/115004537805-Different-PHP-vers
 ## backup
 1. manual backup menggunakan rclone dengna google drive
 `rclone copy src suramadu:/suramadu --fast-list --drive-stop-on-upload-limit --drive-chunk-size 128M --progress`
+## Administrasi Server
+1. Menampilkan daftar port dan aplikasi-nya
+`lsof -i -n`
 ## security
 1. https://help.directadmin.com/item.php?id=247
 
