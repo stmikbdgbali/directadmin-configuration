@@ -22,3 +22,9 @@ https://cloudlinux.zendesk.com/hc/en-us/articles/115004537805-Different-PHP-vers
 ## security
 1. https://help.directadmin.com/item.php?id=247
 
+## directslave
+Buat sertifikat private.key :
+```openssl ecparam -name prime256v1 -genkey -noout -out privkey.pem```
+Buat public key :
+```openssl req -new -x509 -key privkey.pem -out fullchain.pem -days 365```
+
