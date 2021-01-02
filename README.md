@@ -16,6 +16,8 @@ https://cloudlinux.zendesk.com/hc/en-us/articles/115004537805-Different-PHP-vers
 ## backup
 1. manual backup menggunakan rclone dengna google drive
 `rclone copy src suramadu:/suramadu --fast-list --drive-stop-on-upload-limit --drive-chunk-size 128M --progress`
+2. Hapus folder yang usianya melampau 4 hari atau 6 hari
+`find /path/to/backups/folder/ -ctime +6 -exec rm -rfv {} +find /path/to/backups/folder/ -ctime +6 -exec rm -rfv {} +`
 ## Administrasi Server
 1. Menampilkan daftar port dan aplikasi-nya
 `lsof -i -n`
