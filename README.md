@@ -1,4 +1,4 @@
-# plugin-direct-admin
+# Konfigurasi DirectAdmin
 
 ## tips and trick
 1. How to migrate cpanel to directadmin
