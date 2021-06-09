@@ -26,4 +26,8 @@ https://cloudlinux.zendesk.com/hc/en-us/articles/115004537805-Different-PHP-vers
 
 ## directslave
 
-
+# Linux Admin
+1. Turn off swap
+`swapoff -a`
+2. Turn on swap
+`swapon -a`
